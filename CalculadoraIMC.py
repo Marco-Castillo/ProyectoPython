@@ -48,5 +48,8 @@ def principal():
         print(f"Tu IMC es de {imc}, lo que indica que tienes sobrepeso\n\n")
     elif (imc >= 30):
         print(f"Tu IMC es de {imc}, Mucho cuidado tienes obesidad\n\n")
+
+    # Esperar a que el usuario presione una tecla para cerrar el programa
+    input("Presiona cualquier tecla para salir...")
         
 principal()
