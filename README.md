@@ -15,6 +15,7 @@ El programa te pedirá que ingreses tu nombre, apellidos, edad, estatura y peso.
 
 - Asegúrate de ingresar todos los datos solicitados correctamente.
 - El programa está diseñado para asegurarse de que ingreses todos los datos necesarios, como tu nombre y apellidos. Si accidentalmente dejas algún campo vacío, te pedirá que completes la información de nuevo para continuar.
+- Se agrega un bucle para realizar la validación de que los datos ingresados "edad, estatura y peso" sean numéricos y en caso de que no, arroja un error para volver a capturar
 
 ### Opinión del Curso
 Quiero decir que estoy disfrutando mucho el bootcamp. Las clases son muy interesantes y están organizadas de una manera que realmente me ayuda a entender los conceptos.
