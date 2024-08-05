@@ -15,10 +15,25 @@ def principal():
         print ("Intentalo de nuevo, llena correctamente tu Apellido Materno")
         return principal()
    
-    #se solicita datos al usuario y se guardan en variables(edad, estatura y peso)
-    edad = int(input("ingresa tu edad: "))
-    estatura = float (input("ingresa tu estatura en metros: "))
-    peso = float(input("ingresa tu peso en kilogramos: "))
+    #se solicita datos al usuario y se guardan en variables(edad, estatura y peso), despues se evalua para que los datos ingresados sean solamente numericos
+    while True:
+        try:
+            edad = int(input("Ingrese su edad: "))
+            break
+        except ValueError:
+            print ("Ingrese un valor numérico")
+    while True:
+        try:
+            peso = float(input("Ingrese su peso en kg: "))
+            break
+        except ValueError:
+            print ("Ingrese un valor numérico")
+    while True:
+        try:
+            estatura = float(input("Ingrese su estatura en metros: "))
+            break
+        except ValueError:
+            print ("Ingrese un valor numérico")
 
     #Se crea una variable de nombre estatura 2 para despues hacer la operación de estatura al cuadrado
     estatura2 = estatura**2
